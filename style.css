@@ -5,4 +5,14 @@
 
 .hero-section {
   margin-bottom: 0;
+  background-size: cover;
+}
+
+.bi-star-fill {
+  color: yellow;
+}
+
+.form {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
