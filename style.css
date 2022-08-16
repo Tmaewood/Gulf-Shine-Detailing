@@ -34,6 +34,10 @@ button {
   max-width: 40rem;
 }
 
+.btn {
+  max-width: 40rem;
+}
+
 .form {
   padding-left: 5rem;
   padding-right: 5rem;
@@ -44,6 +48,10 @@ button {
 }
 
 .checkboxes {
+  max-width: 40rem;
+}
+
+.about-us {
   max-width: 40rem;
 }
 
