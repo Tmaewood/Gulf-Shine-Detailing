@@ -3,13 +3,35 @@
   margin: 0;
 }
 
+
+
+.navbar {
+  background-color: #9BCAE4;
+}
+
 .hero-section {
   margin-bottom: 0;
   background-size: cover;
 }
 
+.card {
+  max-width: 25rem;
+}
+
+
 .bi-star-fill {
   color: yellow;
+}
+
+.testimony {
+  /* background-color: #1B6B99; */
+ background-color: rgb(71, 71, 71);
+ max-width: 35rem;
+}
+
+button {
+  background-color: #2B687F;
+  max-width: 40rem;
 }
 
 .form {
@@ -17,13 +39,12 @@
   padding-right: 5rem;
 }
 
-.testimony {
-  /* background-color: #1B6B99; */
- background-color: rgb(71, 71, 71);
+.form-group {
+  max-width: 40rem;
 }
 
-button {
-  background-color: #2B687F;
+.checkboxes {
+  max-width: 40rem;
 }
 
 .footer {

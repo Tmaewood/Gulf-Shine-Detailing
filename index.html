@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-info fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Gulf Shine Detail</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -48,7 +48,7 @@
     style="background-image: url('/images/boatbanner.png'); height: 60vh;">
     <h1 class="mb-auto mt-5 justify-content-center align-items-center">Protect and maintain your investment</h1>
   
-    <p>
+    <p class="hero-text w-50 mx-auto">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium
       labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum
       neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
@@ -63,9 +63,9 @@
 
   <!-- Why choose us -->
   <section class="bg-info text-dark p-5 text-center">
-    <h1>Why choose us</h1>
-    <p>At Gulf Shine Detail, we are professionally trained and are dedicated to providing you with the best service available. We use high quality products to clean your boat with precision and care. Even if your boat is in a boat storage lot or on the water, we can detail your boat.</p>
-    <p>We know that regular boat detailing is important in preserving your marine investment and holding its resale valued while maintaining your boat's appearance. Not only will we keep your boat clean and looking great, we will help extend its life and reduce depreciation.</p>
+    <h1 class="choose-us w-50 mx-auto">Why choose us</h1>
+    <p class="w-50 mx-auto">At Gulf Shine Detail, we are professionally trained and are dedicated to providing you with the best service available. We use high quality products to clean your boat with precision and care. Even if your boat is in a boat storage lot or on the water, we can detail your boat.</p>
+    <p class="w-50 mx-auto">We know that regular boat detailing is important in preserving your marine investment and holding its resale valued while maintaining your boat's appearance. Not only will we keep your boat clean and looking great, we will help extend its life and reduce depreciation.</p>
     <p></p>
   </section>
 
@@ -73,22 +73,25 @@
   <!-- Services Offered -->
   <section class="bg-info text-dark p-5 text-center" id="services">
     <div class="container">
-      <div class="card p-3 m-3">
+      <div class="card mx-auto p-3 m-3">
+        <img class="card-img-top" src="./images/blue-boat1.png" alt="white boat in blue water">
         <div class="card-body">
           <h5 class="card-title">Wash and Wax</h5>
           <p class="card-text">Get a hand wash and wax by our experts to remove debris and leave an incredible shine that protects from the elements</p>
         </div>
       </div>
 
-      <div class="card p-3 m-3">
+      <div class="card mx-auto p-3 m-3">
         <div class="card-body">
+          <img class="card-img-top" src="./images/blue-boat2.png" alt="topside white boat">
           <h5 class="card-title">Oxidation Removal</h5>
           <p class="card-text">Keep your exterior looking brand new for years to come with this precise cleaning thing</p>
         </div>
       </div>
 
-        <div class="card p-3 m-3">
+        <div class="card mx-auto p-3 m-3">
           <div class="card-body">
+            <img class="card-img-top" src="./images/blue-boat3.png" alt="topside white boat">
             <h5 class="card-title">Ceramic Coating</h5>
             <p class="card-text">Ceramic coating is a great solution to protect your boats surface from the harsh Florida sun</p>
           </div>
@@ -103,7 +106,7 @@
 
   <!-- Testimonials -->
   <section class="testimonials container-fluid p-4 mb-0 bg-info" id="testimonials">
-    <div class="text-light testimony border border-dark rounded p-3">
+    <div class="text-light testimony mx-auto border border-dark rounded p-3">
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
@@ -112,7 +115,7 @@
     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laborum numquam accusamus obcaecati rerum expedita ut. Hic, perferendis minus quisquam expedita aut ad totam maxime saepe similique? Pariatur, adipisci mollitia.</p>
     </div>
 
-  <div class="text-light testimony border border-dark rounded p-3 mb-2 mt-2">
+  <div class="text-light testimony mx-auto border border-dark rounded p-3 mb-2 mt-2">
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
@@ -121,7 +124,7 @@
     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, animi ipsa? Doloribus incidunt obcaecati quas sed necessitatibus, laudantium eaque nulla quaerat ex! Debitis vel nesciunt eius delectus natus excepturi voluptatum.</p>
     </div>
 
-    <div class="text-light testimony border border-dark rounded p-3">
+    <div class="text-light testimony mx-auto border border-dark rounded p-3">
       <i class="bi bi-star-fill"></i>
       <i class="bi bi-star-fill"></i>
       <i class="bi bi-star-fill"></i>
@@ -134,24 +137,24 @@
 
   <!-- Free Quote Form -->
   <form action="POST" data-netlify="true" class="form bg-info" id="get-quote">
-    <div class="form-group p-2 mb-0">
+    <div class="form-group mx-auto p-2 mb-0">
       <label for="name">Name</label>
       <input type="name" name="name" class="form-control" placeholder="Mister Rogers">
     </div>
-    <div class="form-group p-2 mb-0">
+    <div class="form-group mx-auto p-2 mb-0">
       <label for="email">Email</label>
       <input type="email" name="name" class="form-control" placeholder="MRogers@gmail.com">
     </div>
-    <div class="form-group p-2">
+    <div class="form-group mx-auto p-2">
       <label for="boat">Year/Make/Model</label>
       <input type="text" name="name" class="form-control" placeholder="2021 Pursuit 326DC">
     </div>
-    <div class="form-group p-2">
+    <div class="form-group mx-auto p-2">
       <label for="number">Phone number</label>
       <input type="tel" name="name" class="form-control" placeholder="813-888-7777">
     </div>
     
-    <div class="checkboxes">
+    <div class="checkboxes mx-auto">
       <h6>Services requested</h6>
     <div class="form-check">
       <input class="form-check-input" type="checkbox" name="name" value="" id="flexCheckChecked" checked>
@@ -175,12 +178,12 @@
       </div>
     </div>
 
-    <div class="button p-5">
+    <div class="button p-5 mx-auto">
       <button type="submit" class="btn btn-secondary">Submit</button>
     </div>
   </form>
   
-  <section class="p-5 bg-info m-auto" id="about-us">
+  <section class="p-5 bg-info mx-auto" id="about-us">
     <h5>About Us</h5>
     <p>We are family owned and operated, licensed and insured. We relocated from Minnesota to Florida in 2020. We have almost 20 years of detailing experience and take pride in what we do.</p>
       <p>Contact us today so we can help get you on the path of hassle free boating. Boat detailing services in Tampa, St.Pete, Largo, Dunedin, Clearwater, Seminole, Safety Harbor, Apollo Beach, Ruskin, Riverview, Ruskin, Terra Ceia, Bradenton, Sarasota</p>
