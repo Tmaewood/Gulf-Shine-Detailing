@@ -25,3 +25,18 @@
 button {
   background-color: #2B687F;
 }
+
+.footer {
+  /* display: inline-block; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  
+}
