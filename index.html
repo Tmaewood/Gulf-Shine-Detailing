@@ -13,7 +13,7 @@
 <body>
 
 <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-info fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Gulf Shine Detail</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -26,28 +26,17 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link" href="#services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link" href="#testimonials">Reviews</a>
           </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="tel:+8138382738" class="nav-link phone-number text-decoration-none text-dark">Call us</a>
+        </li>
         </form>
       </div>
     </div>
@@ -57,19 +46,23 @@
   <section class="hero-section">
   <div class="p-5 text-center mt-auto text-white"
     style="background-image: url('/images/boatbanner.png'); height: 60vh;">
-    <h1 class="mb-0">Protect and maintain your investment</h1>
+    <h1 class="mb-auto mt-5 justify-content-center align-items-center">Protect and maintain your investment</h1>
   
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium
       labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum
       neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
     </p>
-    <button type="button" class="btn btn-lg btn-info">Get free quote</button>
+
+    <a href="#get-quote" role="button">
+      <button type="button" class="btn btn-info btn-lg">Get free quote</button>
+    </a>
+
   </div>
   </section>
 
   <!-- Services Offered -->
-  <section class="bg-info text-dark p-5 text-center">
+  <section class="bg-info text-dark p-5 text-center" id="services">
     <div class="container">
       <div class="card p-3 m-3">
         <div class="card-body">
@@ -100,7 +93,7 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials container-fluid p-4 mb-0 bg-info">
+  <section class="testimonials container-fluid p-4 mb-0 bg-info" id="testimonials">
     <div class="text-light testimony border border-dark rounded p-3">
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
@@ -131,7 +124,7 @@
   </section>
 
   <!-- Free Quote Form -->
-  <form class="form bg-info">
+  <form action="" class="form bg-info" id="get-quote">
     <div class="form-group p-2 mb-0">
       <label for="name">Name</label>
       <input type="name" class="form-control" placeholder="Mister Rogers">
@@ -174,11 +167,11 @@
     </div>
 
     <div class="button p-5">
-      <button type="button" class="btn btn-secondary">Get free quote</button>
+      <button type="submit" class="btn btn-secondary">Submit</button>
     </div>
   </form>
   
-  <section class="p-5 bg-info m-auto">
+  <section class="p-5 bg-info m-auto" id="about-us">
     <h5>About Us</h5>
     <h6>We are family ran and owned and have been in Florida since 2020.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eos eaque. Accusantium dignissimos omnis vero quos soluta deserunt magni, tempora corrupti quibusdam veritatis adipisci laudantium laborum cupiditate sunt optio dolorem?
@@ -190,10 +183,16 @@
     <h5>Gulf Shine Detail</h5>
     <a href="https://goo.gl/maps/HmmYrfoPVWbyeRUN8" target="_blank" class="location-link text-decoration-none link-dark">Location</a>
     <a href="tel:+8138382738" class="phone-number text-decoration-none text-dark">Call us</a>
+    <a href="#get-quote" class="btn btn-secondary" role="button">
+      <button type="button" class="btn btn-secondary">Get free quote</button>
+    </a>
+    
     
   </footer>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn top-btn btn-secondary">Top</button>
+
+  <!-- Scroll to top button -->
+ 
   
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
     integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
