@@ -14,24 +14,35 @@
   background-size: cover;
 }
 
-.card {
-  max-width: 25rem;
+button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
+.info {
+  background-color: #38b6ff;
+}
+
+.card {
+  max-width: 25rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services {
+  background-color: #38b6ff;
+}
+
+.review-section {
+  background-color: #38b6ff;
+}
 
 .bi-star-fill {
   color: yellow;
 }
 
-.testimony {
-  /* background-color: #1B6B99; */
- background-color: rgb(71, 71, 71);
+.reviews {
+ background-color: #6C757D;
  max-width: 35rem;
-}
-
-button {
-  background-color: #2B687F;
-  max-width: 40rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .btn {
@@ -41,24 +52,44 @@ button {
 .form {
   padding-left: 5rem;
   padding-right: 5rem;
+  background-color: #38b6ff;
+}
+
+input {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .form-group {
   max-width: 40rem;
 }
 
+
 .checkboxes {
   max-width: 40rem;
+}
+
+.about-section {
+  background-color: #38b6ff;
 }
 
 .about-us {
   max-width: 40rem;
 }
 
+a:hover {
+  /* text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-shadow: 2px 2px 8px #000000;
+}
+
+.location-link:hover {
+  text-shadow: 2px 2px 8px #000000;
+}
+
 .footer {
   /* display: inline-block; */
   justify-content: space-between;
   align-items: center;
+  background-color: #38b6ff;
 }
 
 /* .top-btn {
