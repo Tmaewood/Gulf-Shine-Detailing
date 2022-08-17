@@ -35,3 +35,22 @@
 //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 // }
 
+// $(document).ready(function () { 
+//   $(document).click(function () {
+//      // if($(".navbar-collapse").hasClass("in")){
+//        $('.navbar-collapse').collapse('hide');
+//      // }
+//   });
+// });
+
+
+// $(document).ready(function () {
+//      $(document).click(function (event) {
+//          var clickover = $(event.target);
+//          var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
+//          if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+//              $("button.navbar-toggle").click();
+//          }
+//      });
+//  });
+ 
