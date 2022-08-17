@@ -9,10 +9,10 @@
   background-color: #38b6ff;
 }
 
-
-
-
-
+.navbar-links {
+  display: flex;
+  justify-content: space-between;
+}
 
 .close-navbar-toggler {
   position: absolute;
