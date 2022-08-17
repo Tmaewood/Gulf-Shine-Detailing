@@ -14,8 +14,22 @@
   background-size: cover;
 }
 
+.hero-img {
+  padding-top: 8rem;
+}
+
+/* .hero-text {
+  background-color: rgb(108, 117, 125); opacity: 0.5;;
+  color: white;
+  padding: 20px;
+} */
+
+/* .hero-text {
+  padding-right: 10rem;
+} */
+
 button {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .info {
