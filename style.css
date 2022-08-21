@@ -42,6 +42,18 @@
 
 }
 
+a.btn-info {
+  background-color: #000000;
+}
+
+a.btn-lg:hover {
+  background-color: #6C757D;
+}
+
+a.btn-primary:hover {
+  background-color: #000000;
+}
+
 /* .hero-btn {
   margin-left: 35%;
   margin-bottom: 5rem;
@@ -94,6 +106,10 @@ button {
  background-color: #6C757D;
  max-width: 35rem;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+#testimonials {
+  scroll-padding-top: 120px;
 }
 
 /* .btn {
