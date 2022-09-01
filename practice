@@ -1,0 +1,39 @@
+<nav class="navbar navbar-nav navbar-expand-lg fixed-top">
+  <div class="navbar-items">
+    <a class="navbar-brand" href="#">Gulf Shine Detail
+      <img src="/images/palmTreeLogo (1).png" alt="company logo" width="50" height="50">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav navbar-links">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-us">About us</a>
+        </li>
+        <li class="nav-item">
+          <a href="tel:+8138382738" class="nav-link phone-number text-decoration-none text-dark">Call or text</a>
+        </li>
+        <div class="nav">
+          <li class="nav-item float-end">
+            <a href="#get-quote" role="button">
+              <button type="button" class="navbar-btn btn btn-secondary btn-lg">Get free quote</button>
+            </a>
+          </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+</nav>

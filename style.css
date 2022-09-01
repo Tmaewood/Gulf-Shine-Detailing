@@ -11,31 +11,30 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #38b6ff;
-  /* padding: 10px; */
-  /* align-items: center; */
+  padding: 10px; 
+  align-items: center;
 }
 
-.navbar-items {
+.navbar-nav {
+  align-items: left;
+  padding-left: 3rem;
+}
+
+/* .navbar-item {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+} */
+
+/* .navbar-brand {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* justify-content: space-between; */
-  /* justify-content: space-evenly; */
-}
-
-.navbar-brand {
   position: relative;
   left: 0;
-}
+} */
 
-/* .navbar-nav {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-
-
-/* .navbar-links {
-  /* display: flex; */
-  /* justify-content: space-between; */
+/*   */
 
 
 .close-navbar-toggler {
