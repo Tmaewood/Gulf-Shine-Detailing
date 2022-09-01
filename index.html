@@ -49,7 +49,7 @@
         <div class="nav">
           <li class="nav-item float-end">
             <a href="#get-quote" role="button">
-              <button type="button" class="navbar-btn btn btn-secondary btn-lg">Get free quote</button>
+              <button type="button" class="navbar-btn btn btn-secondary btn-lg" data-bs-toggle="collapse" data-bs-target="quote-btn">Get free quote</button>
             </a>
           </li>
       </ul>
@@ -183,8 +183,6 @@
 
   <!-- Free Quote Form -->
   <form action="POST" data-netlify="true" class="form" id="get-quote">
-    <!-- <h1 style="padding-top: 100px; margin-top: -40px"></h1> -->
-    <!-- <h3><span id="form"></span></h3> -->
     <div class="form-group mx-auto mb-0">
       <label for="name">Name</label>
       <input type="name" name="name" class="form-control" placeholder="Mister Rogers">
