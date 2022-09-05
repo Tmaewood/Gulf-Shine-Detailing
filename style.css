@@ -8,17 +8,28 @@ body {
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   background-color: #38b6ff;
   padding: 10px; 
-  align-items: center;
+  /* align-items: center; */
 }
 
 .navbar-nav {
-  align-items: left;
+  /* align-items: left; */
   padding-left: 3rem;
+  
 }
+
+/* .navbar-links {
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .nav-item {
+  display: flex;
+  justify-content: space-between;
+} */
 
 /* .navbar-item {
   display: flex; 
