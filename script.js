@@ -1,3 +1,4 @@
+// Collapse navbar on click
 const links = document.querySelectorAll('.nav-link');
 const navbar = document.querySelector('.navbar-collapse');
 
@@ -6,6 +7,28 @@ links.forEach(link => {
         if (navbar.classList.contains('show')) navbar.classList.remove('show');
     })
 })
+
+
+// Submit form
+const myform = document.getElementById("get-quote");
+e.preventDefault();
+document.getElementById("get-quote").addEventListener("click", function () {
+  myform.submit();
+  
+});
+
+//confirm before form submit
+const form = document.querySelector('form')
+form.onsubmit = (e) => {
+  e.preventDefault()
+  const confirmSubmit = confirm('Are you sure you want to submit this form?');
+  if (confirmSubmit) {
+    console.log('submitted')
+  }
+}
+
+
+
 
 // Scroll to top button
 // mybutton = document.getElementById("top-btn");
