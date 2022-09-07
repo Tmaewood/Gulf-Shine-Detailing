@@ -10,22 +10,22 @@ links.forEach(link => {
 
 
 // Submit form
-const myform = document.getElementById("get-quote");
-e.preventDefault();
-document.getElementById("get-quote").addEventListener("click", function () {
-  myform.submit();
+// const myform = document.getElementById("get-quote");
+// e.preventDefault();
+// document.getElementById("get-quote").addEventListener("click", function () {
+//   myform.submit();
   
-});
+// });
 
-//confirm before form submit
-const form = document.querySelector('form')
-form.onsubmit = (e) => {
-  e.preventDefault()
-  const confirmSubmit = confirm('Are you sure you want to submit this form?');
-  if (confirmSubmit) {
-    console.log('submitted')
-  }
-}
+// //confirm before form submit
+// const form = document.querySelector('form')
+// form.onsubmit = (e) => {
+//   e.preventDefault()
+//   const confirmSubmit = confirm('Are you sure you want to submit this form?');
+//   if (confirmSubmit) {
+//     console.log('submitted')
+//   }
+// }
 
 
 

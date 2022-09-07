@@ -78,6 +78,13 @@ body {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 705px) {
+  .hero-img {
+    /* width: 25%; */
+    height: 100%;
+  }
+}
+
 a.btn-info {
   background-color: #000000;
 }
