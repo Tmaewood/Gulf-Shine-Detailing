@@ -73,17 +73,34 @@ body {
   max-width: 80%;
 }
 
+@media only screen and (max-width: 450px) {
+  .hero-section {
+    margin-top: 0rem;
+    padding-top: 0px;
+  }
+  .hero-title {
+    font-size: 1.3rem;
+    margin-top: 0;
+  }
+  .hero-info {
+    font-size: 1rem;
+  }
+  .hero-button {
+    padding-top: 5px;
+  }
+}
+
 .hero-img {
   padding-top: 8rem;
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 705px) {
+/* @media only screen and (max-width: 705px) {
   .hero-img {
-    /* width: 25%; */
+    width: 25%;
     height: 100%;
   }
-}
+} */
 
 a.btn-info {
   background-color: #000000;
